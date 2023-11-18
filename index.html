@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"> !header-nav
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Portfofolio</title>
+      <link rel="stylesheet" hreft="style.css "/>
+     <link rel="stylesheet" href="mediaqueries.css"/>
+    </head>
+    <body>
+      <nav id="desktop-nav">
+         <div class="logo">Héctor Julián Guillén Urrea</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<!Menu hamburguesa
+    <nav id="hamburger-nav">
+        <div class="logo">Héctor Julián Guillén Urrea</div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-Links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+<!sección del perfil
+    <section id="pofile">
+        <div class="section__pic-container">
+            <img src="./assets/" alt="Héctor Guillén profile picture"/>
+            <!imagen personal
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Héctor Julián Guillén Urrea</h1>
+            <p class="section_text_p2">Trainee in software analysis and development</p>
+            <div class="btn-container">
+                <button
+                 class="btn btn-color-2"
+                 onclick="window.open('./assets/resume-example.pdf')"
+                >
+                Download CV
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                src="./assets/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://linkedin.com'"
+                />
+            </div>
+        </div>
+    </section>
+<! about me
+    <section id="about">
+        <p class="section_text_p1">get to now More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img
+                src="./assets/about-pic.png"
+                alt="profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                         src="./assets/experience.png"
+                         alt="experience icon"
+                         class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p></p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="./assets/education.png"
+                        alt="education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Technologist in software analysis and development</p>
+                    </div>
+                </div>
+        <div class="text-container">
+            <p>
+                I am an apprentice in software analysis and development, I am in the process of becoming<br>
+                a professional, I am also in a complementary course in English level B2, I have knowledge<br>
+                of different programming languages ​​such as Payton, JavaScript, html, css among others.
+            </p>
+        </div>
+        </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+    
+</section>
+
+        <section id="experience">
+            <p class="section_text_p1">Explore my</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title"></h2>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                  src="./assets/checkmark.png"
+                                  alt="Experience icon"
+                                  class="icon"
+                                />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                  src="./assets/checkmark.png"
+                                  alt="Experience icon"
+                                  class="icon"
+                                />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                  src="./assets/checkmark.png"
+                                  alt="Experience icon"
+                                  class="icon"
+                                />
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                  src="./assets/checkmark.png"
+                                  alt="Experienced icon"
+                                  class="icon"
+                                />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                  src="./assets/checkmark.png"
+                                  alt="Experience icon"
+                                  class="icon"
+                                />
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#projects'"
+            />
+        
+        </section>
+  
+</body>
+</html>
