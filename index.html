@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"> !header-nav
+<html lang="en">
     <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My Portfofolio</title>
+      <title>Mi portafolio</title>
       <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="mediaqueries.css"/>
     </head>
     <body>
       <nav id="desktop-nav">
-         <div class="logo">Héctor Julián Guillén Urrea</div>
+         <div class="logo">Héctor Guillén Urrea</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -22,9 +22,9 @@
     </nav>
 <!Menu hamburguesa
     <nav id="hamburger-nav">
-        <div class="logo">Héctor Julián Guillén Urrea</div>
+        <div class="logo">Héctor Guillén Urrea</div>
         <div class="hamburguer-menu">
-            <div class="hamburguer-icon" onclick="toggleMenu()">
+            <div class="hamburguer-icon span" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -40,12 +40,11 @@
 <!sección del perfil
     <section id="pofile">
         <div class="section__pic-container">
-            <img src="./assets/" alt="Héctor Guillén profile picture"/>
-            <!imagen personal
+            <img src="./assets/" alt="Héctor Guillén Urrea profile picture"/><!imagen personal
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
-            <h1 class="title">Héctor Julián Guillén Urrea</h1>
+            <h1 class="title">Héctor Guillén Urrea</h1>
             <p class="section_text_p2">Trainee in software analysis and development</p>
             <div class="btn-container">
                 <button
@@ -54,14 +53,23 @@
                 >
                 Download CV
                 </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+                </button>
             </div>
             <div id="socials-container">
                 <img
-                src="./assets/linkedin.png"
-                alt="My LinkedIn profile"
-                class="icon"
-                onclick="location.href='https://linkedin.com'"
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://linkedin.com'"
                 />
+                <img 
+                  src="./assets/github.png"
+                  alt="my Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/'"
+                >
             </div>
         </div>
     </section>
@@ -71,51 +79,50 @@
         <h1 class="title">About me</h1>
         <div class="section-container">
             <div class="section_pic-container">
-                <img
-                src="./assets/about-pic.png"
+              <img
+                src="./assets/"                
                 alt="profile picture"
                 class="about-pic"
-                />
+              />
+                <!falta agregar src
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img
-                         src="./assets/experience.png"
-                         alt="experience icon"
-                         class="icon"
-                        />
-                        <h3>Experience</h3>
-                        <p></p>
+                      <img
+                        src="./assets/experience.png"
+                        alt="experience icon"
+                        class="icon"
+                      />
+                      <h3>Experience</h3>
+                      <p>1 years <br>Apprentice software development</p>
                     </div>
                     <div class="details-container">
-                        <img
-                        src="./assets/education.png"
-                        alt="education icon"
-                        class="icon"
-                        />
-                        <h3>Education</h3>
-                        <p>Technologist in software analysis and development</p>
+                      <img
+                       src="./assets/education.png"
+                       alt="education icon"
+                       class="icon"
+                      />
+                      <h3>Education</h3>
+                      <p>Technologist in software analysis and development</p>
                     </div>
                 </div>
-        <div class="text-container">
-            <p>
-                I am an apprentice in software analysis and development, I am in the process of becoming<br>
-                a professional, I am also in a complementary course in English level B2, I have knowledge<br>
-                of different programming languages ​​such as Payton, JavaScript, html, css among others.
-            </p>
+                <div class="text-container">
+                <p>
+                 I am an apprentice in software analysis and development, I am in the process of becoming<br>
+                 a professional, I am also in a complementary course in English level B2, I have knowledge<br>
+                 of different programming languages ​​such as Payton, JavaScript, html, css among others.
+                </p>
+            </div>
         </div>
-        </div>
-    </div>
-    <img
-    src="./assets/arrow.png"
-    alt="arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#experience'"
-    />
-    
-</section>
-
+        <img
+          src="./assets/arrow.png"
+          alt="arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+    </section>
+<!Experience
         <section id="experience">
             <p class="section_text_p1">Explore my</p>
             <h1 class="title">Experience</h1>
@@ -188,9 +195,9 @@
               alt="Arrow icon"
               class="icon arrow"
               onclick="location.href='./#projects'"
-            />
-        
+            />       
         </section>
+<!Projects
         <section id="Projects">
             <p class="section__text__p1">Browse My Recent</p>
             <h1 class="title">Projects</h1>
@@ -260,7 +267,4 @@
         </footer>
         <script src="script.js"></script>
     </body>
-</html>
-  
-</body>
 </html>
