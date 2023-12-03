@@ -49,39 +49,39 @@
 
 @media screen and (max-width:600px) {
     #contact,
-    footer{
+    footer {
         height: 40vh;
     }
-    #profile{
-        heigth: 83;
+    #profile {
+        height: 83vh;
         margin-bottom: 0;
     }
-    article{
+    article {
         font-size: 1rem;
     }
-    footer nav{
+    footer nav {
         height: fit-content;
         margin-bottom: 2rem;
     }
     .about-containers,
     .contact-info-upper-container,
-    .about-container{
+    .about-container {
         flex-wrap: wrap;
     }
-    .contact-info-container{
+    .contact-info-container {
         margin: 0;
     }
     .contact-info-container p,
-    .nav-links li a{
+    .nav-Links li a {
         font-size: 1rem;
     }
-    .experience-sub-title{
+    .experience-sub-title {
         font-size: 1.25rem;
     }
-    .logo{
+    .Logo {
         font-size: 1.5rem;
     }
-    .nav-links{
+    .nav-Links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;

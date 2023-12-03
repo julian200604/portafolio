@@ -1,35 +1,35 @@
 /*GENERAL*/
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Nunito', sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
-p {
+p{
     color: rgb(85, 85, 85);
 }
 
-/* TRANSITION */
+/*TRANSITION*/
 
 a,
 .btn {
     transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
+/*DESKTOP NAV*/
 
 nav,
-.nav-links {
+.nav-Links {
     display: flex;
 }
 
@@ -39,7 +39,7 @@ nav {
     height: 17vh;
 }
 
-.nav-links {
+.nav-Links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
@@ -58,15 +58,15 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+.Logo {
     font-size: 2rem;
 }
 
-.logo:hover {
+.Logo:hover {
     cursor: default;
 }
 
-/* HAMBURGUER MENU */
+/*HAMBURGER MENU*/
 
 #hamburger-nav {
     display: none;
@@ -114,7 +114,7 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-Links li {
+.menu-Links Li {
     list-style: none;
 }
 
@@ -142,11 +142,11 @@ a:hover {
     opacity: 1;
 }
 
-.hamburger-icon span:first-child{
+.hamburger-icon span:first-child {
     transform: none;
 }
 
-/* SECTION */
+/*SECTIONS*/
 
 section {
     padding-top: 4vh;
@@ -173,7 +173,7 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin: auto o;
 }
 
 .section__text {
@@ -241,8 +241,8 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+  background: rgb(53, 53, 53);
+  color: white;
 }
 
 .btn-color-1:hover {
@@ -257,81 +257,83 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container{
+.btn-container {
     gap: 1rem;
 }
-/*ABOUT ME*/
+
+/* ABOUT SECTION */
+
 #about {
     position: relative;
 }
 
 .about-containers {
-    gap:2rem;
-    margin-bottom: 2rem; /*rem: es una unidad relacionada con la fuente tipografica base de tu web */
+    gap: 2rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-.about-details-container{
+.about-details-container {
     justify-content: center;
     flex-direction: column;
 }
 
 .about-containers,
-.about-details-container{
+.about-details-container {
     display: flex;
 }
 
-.about-pic{
+.about-pic {
     border-radius: 2rem;
 }
 
-.arrow{
+.arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
 }
 
 .details-container {
-    padding: 1.5;
+    padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53,53,53);
+    border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
-.section-container{
+.section-container {
     gap: 4rem;
     height: 80%;
 }
 
-.section__pic-container{
-    height: 400px;
-    width: 400px;
+.section__pic-container {
+    height: 300px;
+    width: 300px;
     margin: auto 0;
 }
 
-/*EXPERIENCE SECTION*/
+/* EXPERIENCE SECTION */
 
-#experience{
+#experience {
     position: relative;
 }
 
-.experience-sub-title{
+.experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.experience-details-container{
+.experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.article-container{
+.article-container {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -340,45 +342,45 @@ section {
     justify-content: space-around;
 }
 
-article{
+article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
 
-article .icon{
-    cursor: default;
+article .icon {
+  cursor: default;
 }
 
-/*PROJECTS*/
+/* PROJECTS SECTION */
 
-#Projects{
+#projects {
     position: relative;
 }
 
-.color-container{
+.color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
 }
 
-.project-img{
+.project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
 }
 
-.project-title{
+.project-title {
     margin: 1rem;
     color: black;
 }
 
-.projects-btn{
+.project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
 }
 
-/*CONTACT*/
+/* CONTACT */
 
 #contact {
     display: flex;
@@ -387,7 +389,7 @@ article .icon{
     height: 70vh;
 }
 
-.contact-info-upper-container{
+.contact-info-upper-container {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
@@ -398,10 +400,10 @@ article .icon{
     padding: 0.5rem;
 }
 
-.contact-info-container{
+.contact-info-container {
     display: flex;
     align-items: center;
-    justify-content: center; /*justify-content:define como el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+    justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
 }
@@ -410,26 +412,50 @@ article .icon{
     font-size: larger;
 }
 
-.contact-icon{
+.contact-icon {
     cursor: default;
 }
 
-.email-icon{
+.email-icon {
     height: 2.5rem;
 }
 
-/*FOOTER SECTION*/
+/* FOOTER SECTION */
 
-footer{
+footer {
     height: 26vh;
     margin: 0 1rem;
 }
 
 footer p {
     text-align: center;
-
 }
 
+/*background-color:  La propiedad "background-color" define el color del fondo
 
+gap: esta propiedad sirve para establecer el espacio entre filas y columnas 
+de los elementos dentro de la cuadricula o el contenedor flexbox.
 
+Pixeles(px): medida absoluta que se utiliza comunmente para definir 
+tamaños de fuentes y elementos
 
+Porcentaje (%): Esta unidad de medida es relativa al tamaño del elemento padre. 
+Se utiliza para definir tamaños de elementos en relación con el tamaño de su contenedor.
+
+Em (em): Esta unidad de medida es relativa al tamaño de la fuente del elemento padre.
+ Es útil para definir tamaños de fuentes y elementos de forma relativa.
+
+Rem (rem): Similar a "em", pero en lugar de basarse en el tamaño de la fuente del
+ elemento padre, se basa en el tamaño de la fuente del elemento raíz (es decir, 
+ del elemento "html").
+
+Viewport Height (vh): Esta unidad de medida es relativa 
+al tamaño de la ventana grafica del navegador. Se utilizan para definir tamaños en relación 
+con el ancho o alto de la ventana gráfica del navegador.
+
+(ELEMENTO PADRE: SE REFIERE AL ELEMENTO QUE CONTIENE OTRO ELEMENTO, QUIERE DECIR QUE ES EL 
+ELEMENTO QUE TIENE O ENVUELVE OTRO ELEMENTO
+FLEXBOX:ELEMENTO AL CUAL SE LE APLICA LA PROPIEDAD "display:flex" o "display:inline-flex". ESTO 
+CONVIERTE AL ELEMENTO EN UNA UNIDAD FLEXIBLE)
+
+font-size: se utiliza para especificar el tamaño del texto de un elemento
