@@ -431,3 +431,15 @@ footer {
 footer p {
     text-align: center;
 }
+
+/*
+color: Se utiliza para establecer el color del texto.
+font-size: Controla el tamaño del texto.
+font-family: Define la fuente utilizada para el texto.
+background-color: Establece el color de fondo de un elemento.
+border: Permite definir el estilo, ancho y color del borde de un elemento.
+margin: Controla el espacio exterior alrededor de un elemento.
+padding: Define el espacio interior alrededor del contenido de un elemento.
+width y height: Establecen el ancho y alto de un elemento.
+display: Controla cómo se muestra un elemento en el flujo del documento.
+position: Define el método de posicionamiento de un elemento.
